@@ -50,7 +50,7 @@ const App = () => {
         <div className="spinner"></div>
       </div>
       ) : (    
-      <section className="container">
+      <section className="container" style={{ backgroundImage: "url(/img/background.jpg"}}>
       <h1>Christmas Countdown Timer</h1>
   
       <div className="countdown">
