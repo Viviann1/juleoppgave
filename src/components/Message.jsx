@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 
+  
+
 const YourMessage = () => {
     const [message, setMessage] = useState("");
+    console.log("Before log-timestamp");
+    console.log("After log-timestamp");
 
 
 
-    
     return (
       <form>
         <h2>Send a christmas message for the world to hear..</h2>
@@ -20,6 +23,6 @@ const YourMessage = () => {
       </form>
     
     );
-  };
+};
 
-  export default YourMessage;
+      export default YourMessage;
