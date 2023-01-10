@@ -1,5 +1,4 @@
-import { useState, useEffect } from "react"
-
+import { useState, useEffect } from "react";
 
 const Count = () => {
   const [days, setDays] = useState(10)
@@ -46,17 +45,19 @@ const Count = () => {
 
   return (
     <>
+
+  <div style={{backgroundImage:"url(/img/background.jpg)"}}></div>
+
+
       {isLoading ? (
       <div className="loading">
         <div className="spinner"></div>
       </div>
       ) : (    
-      <section className="container" style={{ backgroundImage: "url(/img/background.jpg", 
-      backgroundRepeat: "no-repeat",
-      backgroundSize: "cover",
-      width: "100vw",
-      height: "100vh"
-      }}>
+      <section>
+        <div className="bg-image">
+
+        </div>
       <h1>Christmas Countdown Timer</h1>
   
       <div className="countdown">
