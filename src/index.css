@@ -77,9 +77,10 @@ h2 {
 
 .countdown p {
   padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
   border-radius: 5px;
   background-color: antiquewhite;
-  font-weight: bolder;
   width: 100px;
   border: 1px solid red;
   box-shadow: 0 5px 5px rgba(0,0,0,0.3);
